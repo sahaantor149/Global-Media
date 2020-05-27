@@ -1,0 +1,368 @@
+/* =-=-=-=-=-=-= Common CSS =-=-=-=-=-=-= */
+@font-face {
+	font-family: roboto;
+	src: url('font/roboto/roboto');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+/* =-=-=-=-=-=-= Head CSS =-=-=-=-=-=-= */
+
+.gm-background {
+	background-image: url('img/01.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 200px;
+}
+
+.menu-1 ul, .menu-2 > ul {
+	display: flex;
+}
+
+.menu-1 ul li, .menu-2 ul li {
+	margin: 10px 10px;
+}
+
+.menu-1 ul li a {
+	font-family: roboto;
+	color: rgba(255, 255, 255, .5);
+}
+
+.menu-1 ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.menu-2 ul li a {
+	font-family: roboto;
+	color: #ffffff;
+}
+
+.menu-2 ul li:nth-child(2) a {
+	font-family: roboto;
+	color: #000000;
+	font-weight: 500;
+}
+
+.menu-2 ul li:nth-child(2) {
+	padding: 5px 20px;
+	color: #000000;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #ffffff;
+}
+
+.menu-2 ul li:nth-child(2):hover {
+	background-color: #ffffff;
+	transition: .20s;
+}
+
+.gm-text {
+	padding: 103px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.gm-bold h1 {
+	font-family: roboto;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.gm-bold h1:nth-child(2) {
+	margin-bottom: 150px;
+}
+
+.gm-button a { 
+	color: #ffffff;
+	font-family: roboto;
+	font-weight: 500;
+	padding: 15px 30px;
+	background: linear-gradient(to right, #df4727, #f29931);
+	border-radius: 50px;
+}
+
+/* =-=-=-=-=-=-= Card CSS =-=-=-=-=-=-= */
+
+.bay {
+	margin: 50px 0;
+}
+
+.aliment {
+	text-align: center;
+	margin: 30px 0;
+	font-family: roboto;
+	padding: 0 30px;
+}
+
+.aliment h1 {
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.aliment p {
+	padding-bottom: 20px;
+}
+
+.gm-card-button a {
+	color: #ffffff;
+	font-weight: 700;
+	background: #f3a032;
+	padding: 7px 15px;
+	border-radius: 50px;
+}
+
+.bay:hover a{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.bay:hover {
+	background-color: #f3a032;
+}
+
+/* =-=-=-=-=-=-= Why CSS =-=-=-=-=-=-= */
+
+.gm-why-head {
+	text-align: center;
+	width: 100%;
+	font-family: roboto;
+}
+
+.gm-why-head h1 {
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.abc {
+	border: none;
+}
+
+.aliment-2 {
+	margin: 40px 13px;
+	color: #f3a032;
+	font-family: roboto;
+}
+
+.aliment-2 p {
+	padding-top: 10px;
+}
+
+/* =-=-=-=-=-=-= Work CSS =-=-=-=-=-=-= */
+
+.gm-work {
+	background-color: #f6f6f6;
+}
+
+.gm-work {
+	padding: 40px 0;
+	width: 100%;
+}
+
+.gm-work .row {
+	width: 100%;
+}
+
+.gm-work-head {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.gm-work .row .card {
+	text-align: center;
+	border: none;
+	box-shadow: 0 0 25px #e5e4e4;
+}
+
+/* =-=-=-=-=-=-= Advertise CSS =-=-=-=-=-=-= */
+
+.left-section {
+	margin-top: 170px;
+	margin-left: 100px;
+	position: relative;
+	width: 450px;
+	font-family: roboto;
+}
+
+.left-section h1 {
+	font-weight: 700;
+}
+
+.left-section span {
+	color: #767676;
+}
+
+.left-section a {
+	color: #f3a032;
+}
+
+.left-section img {
+	opacity: .5;
+	width: 150px;
+	height: 50px;
+}
+
+.left-section img:hover {
+	opacity: 1;
+}
+
+.right-section img {
+	margin-right: 100px;
+	height: 600px;
+	width: 300px;
+	font-family: roboto;
+}
+
+/* =-=-=-=-=-=-= Agencies CSS =-=-=-=-=-=-= */
+
+.ag {
+	background-color: #f6f6f6;
+	padding: 50px 0;
+}
+
+.ag-head {
+	width: 100%;
+	font-family: roboto;
+}
+
+.ag-head h1 {
+	font-weight: 700;
+}
+
+.ag .row:nth-child(2) {
+	margin-top: 50px;
+}
+
+.ag .col-md-6 {
+	margin-bottom: 20px;
+}
+
+.ag .col-md-6 .card {
+	border: none;
+	background: transparent;
+}
+
+.ag .col-md-6 .card p {
+	color: #767676;
+	font-family: roboto;
+}
+
+/* =-=-=-=-=-=-= Publishers CSS =-=-=-=-=-=-= */
+
+.publishers {
+	background-image: url('img/03.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.publishers-overlay {
+	background-color: rgba(40, 40, 40, .9);
+}
+
+.gap {
+	padding: 120px 0;
+}
+
+.xyz {
+	width: 100%;
+}
+
+.publishers h1 {
+	color: #ffffff;
+}
+
+.publishers p {
+	color: #767676;
+	padding-bottom: 80px;
+}
+
+.publishers img {
+	width: 50px;
+	height: 50px;
+}
+
+/* =-=-=-=-=-=-= About CSS =-=-=-=-=-=-= */
+
+.about-head {
+	font-family: roboto;
+	padding-bottom: 70px;
+}
+
+.about-head h1 {
+	font-weight: 700;
+}
+
+.about .card {
+	border: none;
+	padding-bottom: 70px;
+}
+
+.about-aliment img {
+	height: 125px;
+	width: 125px;
+	padding-bottom: 25px;
+}
+
+.about-aliment p {
+	font-family: roboto;
+	font-weight: 700;
+}
+
+/* =-=-=-=-=-=-= About CSS =-=-=-=-=-=-= */
+
+.contact {
+	background-image: url('img/10.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact .col-md-6 {
+	padding: 100px 0;
+}
+
+.contact .card {
+	font-family: roboto;
+}
+
+.contact .card p {
+	color: #b0b0b0;
+}
+
+/* =-=-=-=-=-=-= Footer CSS =-=-=-=-=-=-= */
+
+.gm-footer .text {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.gm-footer .text p i {
+	font-size: 40px;
+}
